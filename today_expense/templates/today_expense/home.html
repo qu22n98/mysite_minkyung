@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>>
+<html lang="kor">
+    <head>
+        <meta charset="uft-8">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'today_expense/css/style.css' %}" />
+    </head>
+    <body>
+      <h1>오늘 쓴 금액</h1>
+      <h2>자유롭게 써주세요. 숫자만 카운트됩니다.</h2>
+
+    <form action="{% url 'result' %}">
+        <textarea name="fulltext"></textarea>
+        <input type="submit" value="enter"/>
+    </form>  
+    </body>
+
+</html>

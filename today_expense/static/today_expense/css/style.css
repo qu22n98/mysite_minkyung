@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightyellow;
+    text-align: center;
+}
+h1{
+    font-family: HY동녘M;
+    font-size: 30px;
+}
+h2{
+    font-family: 굴림;
+    font-size: 15px;
+}
+
+textarea{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 나눔손글씨 펜;
+}
+
+result{
+
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    margin-top: 300px;
+    font-size:25px;
+    font-family: HY동녘M;
+
+}
